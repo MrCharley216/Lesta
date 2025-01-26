@@ -21,7 +21,7 @@ def merge(left, right):
 
 
 if __name__ == '__main__':
-    n = 8
-    arr = [3, 1, 0, 2, 6, 5, 4, 7]
+    n = int(input())
+    arr = list(map(int, input().split()))
     result = merge_sort(arr, n)
     print(result)
